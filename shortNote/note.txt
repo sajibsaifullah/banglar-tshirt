@@ -1,0 +1,11 @@
+==> we'll try to learn:
+    1. setup react router => simple 5 steps
+    2. set => 404 route
+    3. dynamic route => set path
+    4. event handler in button
+    5. conditional rendering
+    6. props drilling
+
+==>
+    - loader: () => fetch('...')
+    - useLoaderData()
