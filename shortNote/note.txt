@@ -9,3 +9,10 @@
 ==>
     - loader: () => fetch('...')
     - useLoaderData()
+
+==> perfect place to use useState hook:
+    - if we want to see change in present component, then we'll use useState in there.
+    - if we want to kill here but dead-body will fall there. In this condition we'll use useState in parent container.
+
+==> state array তে সরাসরি push করা যাবেনা। এখানে spread operator (...) ব্যবহার করে push করা লাগবে।  
+    **** state is immutable ****
