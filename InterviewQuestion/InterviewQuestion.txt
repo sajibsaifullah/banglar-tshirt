@@ -5,4 +5,3 @@
 5. What is a custom hook?
 6. How many ways can we implement conditional rendering in React? Explain the ways.
 7. SPA vs MPA differences.
-8. 
