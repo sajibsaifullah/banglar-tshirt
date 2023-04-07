@@ -16,3 +16,30 @@
 
 ==> state array তে সরাসরি push করা যাবেনা। এখানে spread operator (...) ব্যবহার করে push করা লাগবে।  
     **** state is immutable ****
+
+==> Conditional Rendering: 
+    1. use if-else to set a variable that will contain an elements, components... [message variable]
+    2. ternary operator: condition ? 'for true' : 'for false'
+    3. logical &&: (if the condition is true then the next thing will be displayed)
+    4. logical ||: (if the condition is false then the next thing will be displayed)
+
+==> Conditional CSS class:
+    1.use ternary
+    2. ternary inside template string
+
+==> Toaster/sweetalert:
+
+==> Context API: (1-3-2)
+    1. Create a Context and export
+    2. Create a provider and pass a value
+    3. use useContext to receive the value
+        -- Recap
+            - Context lets a component provide some information to the entire tree below it.
+            - To pass context:
+                1. Create and export it with export const MyContext = createContext(defaultValue).
+                2. Pass it to the useContext(MyContext) Hook to read it in any child    component, no matter how deep.
+                3. Wrap children into <MyContext.Provider value={...}> to provide it from a parent.
+            - Context passes through any components in the middle.
+            - Context lets you write components that “adapt to their surroundings”.
+            - Before you use context, try passing props or passing JSX as children.
+

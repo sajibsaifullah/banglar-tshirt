@@ -4,6 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 import Cart from '../Cart/Cart';
 import TShirt from '../TShirt/TShirt';
 import './Home.css';
+import toast from 'react-hot-toast';
 
 const Home = () => {
     const tshirts = useLoaderData();
@@ -13,7 +14,7 @@ const Home = () => {
     const handleAddToCart = tshirt => {
         const exist = cart.find(ts => ts._id === tshirt._id);
         if(exist){
-            alert('aaa')
+            toast('already added t-shirt')
         }
         else{
             const newCart = [...cart, tshirt];
