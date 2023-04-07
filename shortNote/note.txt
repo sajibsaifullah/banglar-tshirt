@@ -43,3 +43,9 @@
             - Context lets you write components that “adapt to their surroundings”.
             - Before you use context, try passing props or passing JSX as children.
 
+==> react router deploy related problem solve:
+    -- For netlify
+        1. create a file in public file named- [ _redirects ]
+        2. contained [ /* /index.html 200 ] in file.
+
+

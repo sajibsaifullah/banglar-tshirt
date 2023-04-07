@@ -1,0 +1,8 @@
+1. How to React touting different from conventional routing?
+2. How do you implement React routing?
+3. What is the purpose of context API in react?
+4. Can you explain hoe the Provider works with the React API?
+5. What is a custom hook?
+6. How many ways can we implement conditional rendering in React? Explain the ways.
+7. SPA vs MPA differences.
+8. 
